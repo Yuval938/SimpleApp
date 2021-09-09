@@ -24,7 +24,7 @@
           <option disabled selected value> -- select an option -- </option>
           <option v-for="continent in continents" :value="continent">{{continent}}</option>
         </select>
-        <label>Choose a continent:</label>
+        <label>Choose a country:</label>
         <select name="country" id="country" v-model=enteredCountryValue @change="CountrySelection">
           <option disabled selected value> -- select an option -- </option>
           <option v-for="country in countrylist" :value="country">{{country}}</option>
